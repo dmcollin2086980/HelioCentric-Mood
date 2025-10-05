@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:HelioCentricMood.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "self:Shared/DesignSystem">
+   </FileRef>
+   <FileRef
+      location = "self:Shared/Core">
+   </FileRef>
+   <FileRef
+      location = "self:Shared/Data">
+   </FileRef>
+   <FileRef
+      location = "self:Features/Mood">
+   </FileRef>
+   <FileRef
+      location = "self:Features/Reflect">
+   </FileRef>
+   <FileRef
+      location = "self:Features/Journal">
+   </FileRef>
+   <FileRef
+      location = "self:Features/Quotes">
+   </FileRef>
+   <FileRef
+      location = "self:Features/Settings">
+   </FileRef>
+</Workspace>

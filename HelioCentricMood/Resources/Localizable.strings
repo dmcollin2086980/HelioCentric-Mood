@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  HelioCentricMood
+
+  Created by HelioCentric Team on 10/5/25.
+*/
+
+// Tab Titles
+"mood" = "Mood";
+"reflect" = "Reflect";
+"journal" = "Journal";
+"quotes" = "Quotes";
+"settings" = "Settings";
+
+// Mood Screen
+"focus_present" = "Focus / Present";
+"focus_description" = "Take a moment to center yourself and focus on the present moment";
+"todays_reflection" = "Today's Reflection";
+"daily_quote" = "Daily Quote";
+
+// Reflect Screen
+"your_reflection" = "Your Reflection";
+"save_reflection" = "Save Reflection";
+"previous_reflections" = "Previous Reflections";
+"no_reflections_yet" = "No reflections yet";
+"start_reflection_journey" = "Start your reflection journey by writing your first thought";
+
+// Journal Screen
+"mood_journal" = "Mood Journal";
+"track_emotional_journey" = "Track your emotional journey and gain insights";
+"how_are_you_feeling" = "How are you feeling?";
+"intensity_level" = "Intensity Level";
+"why_do_you_feel_this_way" = "Why do you feel this way?";
+"save_entry" = "Save Entry";
+
+// Quotes Screen
+"wisdom" = "Wisdom";
+"discover_timeless_wisdom" = "Discover timeless wisdom and insights";
+"wisdom_for_today" = "Wisdom for Today";
+"new_quote" = "New Quote";
+"categories" = "Categories";
+
+// Settings Screen
+"customize_your_experience" = "Customize your experience";
+"app_info" = "App Info";
+"version" = "Version";
+"build" = "Build";
+"platform" = "Platform";
+"preferences" = "Preferences";
+"theme" = "Theme";
+"haptic_feedback" = "Haptic Feedback";
+"haptic_feedback_description" = "Light vibrations for interactions";
+"dark_mode" = "Dark Mode";
+"dark_mode_description" = "Use dark appearance";
+"data_privacy" = "Data & Privacy";
+"icloud_sync" = "iCloud Sync";
+"icloud_sync_description" = "Sync data across devices";
+"privacy_lock" = "Privacy Lock";
+"privacy_lock_description" = "Use Face ID/Touch ID for sensitive data";
+"support" = "Support";
+"privacy_policy" = "Privacy Policy";
+"help_support" = "Help & Support";
+
+// Common
+"done" = "Done";
+"save" = "Save";
+"cancel" = "Cancel";
+"dismiss" = "Dismiss";
+"loading" = "Loading...";
+"error" = "Error";
+"success" = "Success";
+
+// Accessibility
+"mood_tracking" = "Mood tracking";
+"reflection_journal" = "Reflection journal";
+"mood_journal" = "Mood journal";
+"wisdom_quotes" = "Wisdom quotes";
+"app_settings" = "App settings";
