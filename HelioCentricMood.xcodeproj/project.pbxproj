@@ -14,14 +14,6 @@
 		A1000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000008 /* Assets.xcassets */; };
 		A100000B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100000A /* Preview Assets.xcassets */; };
 		A100000D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A100000C /* Localizable.strings */; };
-		A100000F /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = A100000E /* DesignSystem */; };
-		A1000011 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = A1000010 /* Core */; };
-		A1000013 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = A1000012 /* Data */; };
-		A1000015 /* Mood in Frameworks */ = {isa = PBXBuildFile; productRef = A1000014 /* Mood */; };
-		A1000017 /* Reflect in Frameworks */ = {isa = PBXBuildFile; productRef = A1000016 /* Reflect */; };
-		A1000019 /* Journal in Frameworks */ = {isa = PBXBuildFile; productRef = A1000018 /* Journal */; };
-		A100001B /* Quotes in Frameworks */ = {isa = PBXBuildFile; productRef = A100001A /* Quotes */; };
-		A100001D /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = A100001C /* Settings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,14 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A100000F /* DesignSystem in Frameworks */,
-				A1000011 /* Core in Frameworks */,
-				A1000013 /* Data in Frameworks */,
-				A1000015 /* Mood in Frameworks */,
-				A1000017 /* Reflect in Frameworks */,
-				A1000019 /* Journal in Frameworks */,
-				A100001B /* Quotes in Frameworks */,
-				A100001D /* Settings in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				A1000022 /* App */,
-				A1000023 /* Shared */,
-				A1000024 /* Features */,
 				A1000025 /* Resources */,
-				A1000026 /* Tests */,
 				A100001E /* Info.plist */,
 				A100001F /* HelioCentricMood.entitlements */,
 				A1000020 /* NSPrivacyManifest.xcprivacy */,
@@ -99,28 +80,6 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		A1000023 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				A1000027 /* DesignSystem */,
-				A1000028 /* Core */,
-				A1000029 /* Data */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		A1000024 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				A100002A /* Mood */,
-				A100002B /* Reflect */,
-				A100002C /* Journal */,
-				A100002D /* Quotes */,
-				A100002E /* Settings */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
 		A1000025 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,85 +88,6 @@
 				A100000C /* Localizable.strings */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		A1000026 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A100002F /* Unit */,
-				A1000030 /* UI */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		A1000027 /* DesignSystem */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DesignSystem;
-			sourceTree = "<group>";
-		};
-		A1000028 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		A1000029 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		A100002A /* Mood */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mood;
-			sourceTree = "<group>";
-		};
-		A100002B /* Reflect */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Reflect;
-			sourceTree = "<group>";
-		};
-		A100002C /* Journal */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Journal;
-			sourceTree = "<group>";
-		};
-		A100002D /* Quotes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Quotes;
-			sourceTree = "<group>";
-		};
-		A100002E /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		A100002F /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Unit;
-			sourceTree = "<group>";
-		};
-		A1000030 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,16 +106,6 @@
 			dependencies = (
 			);
 			name = HelioCentricMood;
-			packageProductDependencies = (
-				A100000E /* DesignSystem */,
-				A1000010 /* Core */,
-				A1000012 /* Data */,
-				A1000014 /* Mood */,
-				A1000016 /* Reflect */,
-				A1000018 /* Journal */,
-				A100001A /* Quotes */,
-				A100001C /* Settings */,
-			);
 			productName = HelioCentricMood;
 			productReference = A0FFFFFF /* HelioCentricMood.app */;
 			productType = "com.apple.product-type.application";
@@ -506,92 +376,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A100000E /* DesignSystem */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A1000037 /* Shared/DesignSystem */;
-			productName = DesignSystem;
-		};
-		A1000010 /* Core */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A1000038 /* Shared/Core */;
-			productName = Core;
-		};
-		A1000012 /* Data */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A1000039 /* Shared/Data */;
-			productName = Data;
-		};
-		A1000014 /* Mood */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A100003A /* Features/Mood */;
-			productName = Mood;
-		};
-		A1000016 /* Reflect */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A100003B /* Features/Reflect */;
-			productName = Reflect;
-		};
-		A1000018 /* Journal */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A100003C /* Features/Journal */;
-			productName = Journal;
-		};
-		A100001A /* Quotes */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A100003D /* Features/Quotes */;
-			productName = Quotes;
-		};
-		A100001C /* Settings */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A100003E /* Features/Settings */;
-			productName = Settings;
-		};
-/* End XCSwiftPackageProductDependency section */
-
-/* Begin XCSwiftPackageReference section */
-		A1000037 /* Shared/DesignSystem */ = {
-			isa = XCSwiftPackageReference;
-			kind = localSourceControl;
-			location = "Shared/DesignSystem";
-		};
-		A1000038 /* Shared/Core */ = {
-			isa = XCSwiftPackageReference;
-			kind = localSourceControl;
-			location = "Shared/Core";
-		};
-		A1000039 /* Shared/Data */ = {
-			isa = XCSwiftPackageReference;
-			kind = localSourceControl;
-			location = "Shared/Data";
-		};
-		A100003A /* Features/Mood */ = {
-			isa = XCSwiftPackageReference;
-			kind = localSourceControl;
-			location = "Features/Mood";
-		};
-		A100003B /* Features/Reflect */ = {
-			isa = XCSwiftPackageReference;
-			kind = localSourceControl;
-			location = "Features/Reflect";
-		};
-		A100003C /* Features/Journal */ = {
-			isa = XCSwiftPackageReference;
-			kind = localSourceControl;
-			location = "Features/Journal";
-		};
-		A100003D /* Features/Quotes */ = {
-			isa = XCSwiftPackageReference;
-			kind = localSourceControl;
-			location = "Features/Quotes";
-		};
-		A100003E /* Features/Settings */ = {
-			isa = XCSwiftPackageReference;
-			kind = localSourceControl;
-			location = "Features/Settings";
-		};
-/* End XCSwiftPackageReference section */
 	};
 	rootObject = A0FFFFFA /* Project object */;
 }
